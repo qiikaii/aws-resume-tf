@@ -847,7 +847,7 @@
                                 </div>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link primary">
+                                <a href="https://github.com/qiikaii/aws-resume-tf" class="project-link primary">
                                     <span>👁️</span> You're viewing it now!
                                 </a>
                                 <a href="#" class="project-link">
@@ -904,7 +904,7 @@
     </section>
 
     <script>
-        // Visitor Counter - Your integrated code with enhancements
+        // Visitor Counter
         let currentDisplayedCount = null;
 
         async function fetchVisitorCount() {
@@ -977,10 +977,9 @@
 
         // Resume download 
         document.getElementById('resumeBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('Please replace this with your actual resume file link!');
-            // In a real implementation, this would be:
-            // window.open('path-to-your-resume.pdf', '_blank');
+            // e.preventDefault();
+            // alert('Please replace this with your actual resume file link!');
+            window.open('https://resume-prod-ap-southeast-1-s3bucket.s3.ap-southeast-1.amazonaws.com/Foo_Qi_Kai_Resume_2025.pdf', '_blank');
         });
 
         // Add some interactive hover effects
